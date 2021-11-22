@@ -1,7 +1,6 @@
 let db;
 let budgetVersion;
 
-// Creates a new db request for a "budget" database.
 const request = indexedDB.open('BudgetDB', budgetVersion || 21);
 
 request.onupgradeneeded = function (e) {
@@ -26,13 +25,10 @@ request.onerror = function (e) {
 function checkDatabase() {
   console.log('check db invoked');
 
-  // Opens a transaction on BudgetStore db
   let transaction = db.transaction(['BudgetStore'], 'readwrite');
 
-  // accesses BudgetStore object
   const store = transaction.objectStore('BudgetStore');
 
-  // Gets all records from store and set to a variable
   const getAll = store.getAll();
 
   getAll.onsuccess = function () {
