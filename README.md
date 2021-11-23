@@ -9,17 +9,21 @@ Features Implemented Include:
 - entering expenses offline
 - when the app comes back online, the offline deposits and expenses are updated to the online version
 
-## Homepage
+### Here is a demonstration video of live application, locally:
+https://watch.screencastify.com/v/B664R8lq1kETGyBYsy0U
 
-## Offline Entry
-
-## Back Online, Entries Updated
 
 ### Help Received:
 I worked with Mitchell Robbins on determining the best starter code from existing activities and troubleshooting the heroku server startup issues.
 
-# Unit 19 PWA Homework: Online/Offline Budget Trackers
+I also worked with AskBCS, the TAs, Damien Luzzo, and Ethan Cho to try troubleshooting why my mongodb/atlas and heroku deployment would not work. We were not successful, so there is no live version of this app.
 
+
+-----
+# Original User Story Follows:
+-----
+
+# Unit 19 PWA Homework: Online/Offline Budget Trackers
 Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
