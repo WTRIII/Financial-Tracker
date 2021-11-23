@@ -1,5 +1,23 @@
 # Financial-Tracker
 
+## Summary
+
+A client requested the ability to use their existing app offline. Offline functionality involved being able to enter deposits and expenses while the app was offline and appear when the app comes back online.
+
+Features Implemented Include:
+- entering deposits offline
+- entering expenses offline
+- when the app comes back online, the offline deposits and expenses are updated to the online version
+
+## Homepage
+
+## Offline Entry
+
+## Back Online, Entries Updated
+
+### Help Received:
+I worked with Mitchell Robbins on determining the best starter code from existing activities and troubleshooting the heroku server startup issues.
+
 # Unit 19 PWA Homework: Online/Offline Budget Trackers
 
 Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
